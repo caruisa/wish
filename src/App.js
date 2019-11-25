@@ -5,7 +5,7 @@ import Home from "./pages/Home";
 import ReactPlayground from "./pages/ReactPlayground";
 import caruisa from "./pages/caruisa";
 import a191126 from "./pages/playground/a191126";
-/*
+
 function App() {
   return (
    <Router>
@@ -21,8 +21,8 @@ function App() {
 );
 }
 
-*/
 
+/*
 function App() {
    return (
     <Router>
@@ -51,4 +51,5 @@ function App() {
   </Router>
 );
 }
+*/
 export default App;
