@@ -1,26 +1,38 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import { Link, Route, Switch, BrowserRouter as Router } from "react-router-dom";
+import Home from "./pages/Home";
+import ReactPlayground from "./pages/ReactPlayground";
+import caruisa from "./pages/caruisa";
+import abc from "./pages/playground/abc";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+   return (
+    <Router>
+    <header>
+     <div id="App_btn_group">
+      <Link to="/">
+        <button id="App_home">홈</button>
+      </Link>
+      <Link to="/ReactPlayground">
+        <button id="App_reactjs">React.js 놀이터</button>
+      </Link>
+      <Link to="/caruisa">
+        <button id="App_caruisakr">사랑 홈페이지 (caruisa.kr)</button>
+      </Link>
+      </div>
+    </header>
+    <hr />
+    <main>
+      <Switch>
+        <Route exact path="/" component={Home} />
+        <Route path="/ReactPlayground" component={ReactPlayground} />
+        <Route path="/caruisa" component={caruisa} />
+        <Route path="/abc" component={abc} />
+      </Switch>
+    </main>
+  </Router>
+);
 }
 
 export default App;
