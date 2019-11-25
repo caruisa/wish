@@ -6,7 +6,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-  #App_reactjs{margin-right: 4px; width: 400px; height: 400px; font-size: 30px; } 
-  #App_caruisakr{margin-right: 4px; width: 400px; height: 400px; font-size: 30px; } 
-  #App_btn_group button{border: 1px solid skyblue; background-color: rgba(0,0,0,0); color: skyblue; padding: 5px; margin-top: 50px; }
-  #App_btn_group button:hover{ color:white; background-color: skyblue; }
+  #web_reactjs{margin-right: 4px; width: 400px; height: 400px; font-size: 30px; } 
+  #web_caruisakr{margin-right: 4px; width: 400px; height: 400px; font-size: 30px; } 
+  #web_btn_group button{border: 1px solid skyblue; background-color: rgba(0,0,0,0); color: skyblue; padding: 5px; margin-top: 10px; }
+  #web_btn_group button:hover{ color:white; background-color: skyblue; }

@@ -31,12 +31,6 @@ function App() {
       <Link to="/">
         <button id="App_home">홈</button>
       </Link>
-      <Link to="/ReactPlayground">
-        <button id="App_reactjs">React.js 놀이터</button>
-      </Link>
-      <Link to="/caruisa">
-        <button id="App_caruisakr">사랑 홈페이지 (caruisa.kr)</button>
-      </Link>
       </div>
     </header>
     <hr />
