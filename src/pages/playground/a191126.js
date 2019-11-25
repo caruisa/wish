@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-function abc() {
+function a191126() {
   return (
     <>
       <h1>Link to</h1>
@@ -11,4 +11,4 @@ function abc() {
   );
 }
 
-export default abc;
+export default a191126;

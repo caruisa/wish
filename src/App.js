@@ -1,11 +1,28 @@
 import React from 'react';
 import './App.css';
-import { Link, Route, Switch, BrowserRouter as Router } from "react-router-dom";
+import { Route, Switch, BrowserRouter as Router } from "react-router-dom";
 import Home from "./pages/Home";
 import ReactPlayground from "./pages/ReactPlayground";
 import caruisa from "./pages/caruisa";
-import abc from "./pages/playground/abc";
+import a191126 from "./pages/playground/a191126";
 
+function App() {
+  return (
+   <Router>
+   <main>
+     <Switch>
+       <Route exact path="/" component={Home} />
+       <Route path="/ReactPlayground" component={ReactPlayground} />
+       <Route path="/caruisa" component={caruisa} />
+       <Route path="/a191126" component={a191126} />
+     </Switch>
+   </main>
+ </Router>
+);
+}
+export default App;
+
+/*
 function App() {
    return (
     <Router>
@@ -26,13 +43,14 @@ function App() {
     <main>
       <Switch>
         <Route exact path="/" component={Home} />
+        <Redirect from="/" to="/main/" />
         <Route path="/ReactPlayground" component={ReactPlayground} />
         <Route path="/caruisa" component={caruisa} />
         <Route path="/abc" component={abc} />
+        <Route path="/main" component={main} />
       </Switch>
     </main>
   </Router>
 );
 }
-
-export default App;
+*/
