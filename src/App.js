@@ -5,8 +5,8 @@ import { Layout, Menu, Icon } from 'antd';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 import Home from "./pages/Home";
-import ReactPlayground from "./pages/ReactPlayground";
-import wish from "./pages/wish";
+import mplayground from "./pages/mplayground";
+import wishhomep from "./pages/wishhomep";
 import a191126 from "./pages/playground/a191126";
 
 const { Header, Content, Footer, Sider } = Layout;
@@ -58,6 +58,12 @@ render() {
                           </Menu.Item>
                           </SubMenu>
 
+                          <Menu.Item key="3">
+                            <Icon type="pie-chart" />
+                            <span>소망</span>
+                            <Link to="/wish" />
+                        </Menu.Item>   
+
                         <SubMenu
                         key="sub2"
                         title={
@@ -67,17 +73,17 @@ render() {
                           </span>
                         }
                        >
-                      <Menu.Item key="3">
-                        <a href="http://www.prayer.kr/" target="_blank" rel="noopener">
+                      <Menu.Item key="4">
+                        <a href="http://www.prayer.kr/" target="_blank" rel="noopener noreferrer">
                           <Icon type="desktop" /><span>prayer.kr</span></a>
                           </Menu.Item>
-                      <Menu.Item key="4"><a href="http://holyspirit.kr/" target="_blank" rel="noopener">
+                      <Menu.Item key="5"><a href="http://holyspirit.kr/" target="_blank" rel="noopener noreferrer">
                         <Icon type="desktop" />
                             <span>holyspirit.kr</span></a></Menu.Item>
-                      <Menu.Item key="5"><a href="http://lui.kr/" target="_blank" rel="noopener">
+                      <Menu.Item key="6"><a href="http://lui.kr/" target="_blank" rel="noopener noreferrer">
                         <Icon type="desktop" />
                             <span>lui.kr</span></a></Menu.Item>
-                      <Menu.Item key="6"><a href="http://caruisa.kr/" target="_blank" rel="noopener">
+                      <Menu.Item key="7"><a href="http://caruisa.kr/" target="_blank" rel="noopener noreferrer">
                         <Icon type="desktop" />
                             <span>caruisa.kr</span></a></Menu.Item>
                    </SubMenu>
@@ -95,8 +101,8 @@ render() {
                     </Header>
                     <Content style={{ margin: '24px 16px', padding: 24, background: '#fff', minHeight: 280 }}>
                     <Route exact path="/" component={Home} />
-                    <Route path="/ReactPlayground" component={ReactPlayground} />
-                    <Route path="/wish" component={wish} />
+                    <Route path="/mplayground" component={mplayground} />
+                    <Route path="/wishhomep" component={wishhomep} />
                     <Route path="/a191126" component={a191126} />
                     </Content>
                     <Footer style={{ textAlign: 'center' }}>

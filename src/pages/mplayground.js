@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 
-function ReactPlayground() {
+function mplayground() {
   return (
     <>
     <h1>React. Basic 놀이터</h1>
@@ -11,4 +11,4 @@ function ReactPlayground() {
   );
 }
 
-export default ReactPlayground;
+export default mplayground;
