@@ -54,14 +54,14 @@ render() {
                       <Menu.Item key="2">
                       <Icon type="desktop" />
                             <span>Basic</span>
-                            <Link to="/ReactPlayground" />
+                            <Link to="/mplayground" />
                           </Menu.Item>
                           </SubMenu>
 
                           <Menu.Item key="3">
                             <Icon type="pie-chart" />
                             <span>소망</span>
-                            <Link to="/wish" />
+                            <Link to="/wishhomep" />
                         </Menu.Item>   
 
                         <SubMenu
