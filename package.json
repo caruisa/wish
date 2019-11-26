@@ -5,6 +5,7 @@
   "private": true,
   "homepage": "https://caruisa.github.io/wish",
   "dependencies": {
+    "antd": "^3.25.3",
     "gh-pages": "^2.1.1",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
