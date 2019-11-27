@@ -1,6 +1,6 @@
 import React from 'react';
 
-function wishhomep() {
+function wishhomepage() {
   return (
   <div>
   <h1>소망 (https://caruisa.github.io/wish/)</h1>
@@ -9,4 +9,4 @@ function wishhomep() {
   );
 }
 
-export default wishhomep;
+export default wishhomepage;

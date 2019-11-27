@@ -4,9 +4,9 @@ import './index.css';
 import { Layout, Menu, Icon } from 'antd';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
-import Home from "./pages/Home";
+import wish from "./pages/wish";
 import mplayground from "./pages/mplayground";
-import wishhomep from "./pages/wishhomep";
+import wishhomepage from "./pages/wishhomepage";
 import a191126 from "./pages/playground/a191126";
 
 const { Header, Content, Footer, Sider } = Layout;
@@ -61,7 +61,7 @@ render() {
                           <Menu.Item key="3">
                             <Icon type="pie-chart" />
                             <span>소망</span>
-                            <Link to="/wishhomep" />
+                            <Link to="/wishhomepage" />
                         </Menu.Item>   
 
                         <SubMenu
@@ -100,9 +100,9 @@ render() {
                         />
                     </Header>
                     <Content style={{ margin: '24px 16px', padding: 24, background: '#fff', minHeight: 280 }}>
-                    <Route exact path="/" component={Home} />
+                    <Route exact path="/" component={wish} />
                     <Route path="/mplayground" component={mplayground} />
-                    <Route path="/wishhomep" component={wishhomep} />
+                    <Route path="/wishhomepage" component={wishhomepage} />
                     <Route path="/a191126" component={a191126} />
                     </Content>
                     <Footer style={{ textAlign: 'center' }}>
