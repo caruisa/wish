@@ -10,6 +10,6 @@ body {
 #App_home{margin-right: 14px; width:100px; height: 40px; }
 #App_reactjs{margin-right: 14px; width: 200px; height: 40px; }
 #App_caruisakr{margin-right: 14px; width: 200px; height: 40px; }
-#App_btn_group button{border: 1px solid skyblue; background-color: rgba(0,0,0,0); color: skyblue; padding: 5px; }
-#App_btn_group button:hover{ color:white; background-color: skyblue; }
+#App_btn_group button{border: 1px solid #0B615E; background-color: rgba(0,0,0,0); color: #0B615E; padding: 5px; }
+#App_btn_group button:hover{ color:white; background-color: #0B615E; }
 

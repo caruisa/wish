@@ -8,6 +8,7 @@ import wish from "./pages/wish";
 import mplayground from "./pages/mplayground";
 import wishhomepage from "./pages/wishhomepage";
 import a191126 from "./pages/playground/a191126";
+import a191128 from "./pages/playground/a191128";
 
 const { Header, Content, Footer, Sider } = Layout;
 const SubMenu = Menu.SubMenu;
@@ -38,7 +39,7 @@ render() {
                     <div className="logo" />
                     <Menu theme="dark" defaultSelectedKeys={['1']} mode="inline">
                         <Menu.Item key="1">
-                            <Icon type="pie-chart" />
+                            <Icon type="home" />
                             <span>홈</span>
                             <Link to="/wish" />
                         </Menu.Item>      
@@ -46,20 +47,20 @@ render() {
                         key="sub1"
                         title={
                           <span>
-                            <Icon type="desktop" />
+                            <Icon type="rocket" />
                             <span>React.놀이터</span>
                           </span>
                         }
                        >
                       <Menu.Item key="2">
-                      <Icon type="desktop" />
+                      <Icon type="tool" />
                             <span>Basic</span>
                             <Link to="/mplayground" />
                           </Menu.Item>
                           </SubMenu>
 
                           <Menu.Item key="3">
-                            <Icon type="pie-chart" />
+                            <Icon type="safety" />
                             <span>소망</span>
                             <Link to="/wishhomepage" />
                         </Menu.Item>   
@@ -68,7 +69,7 @@ render() {
                         key="sub2"
                         title={
                           <span>
-                            <Icon type="mail" />
+                            <Icon type="heart" />
                             <span>패밀리사이트</span>
                           </span>
                         }
@@ -104,6 +105,7 @@ render() {
                     <Route path="/mplayground" component={mplayground} />
                     <Route path="/wishhomepage" component={wishhomepage} />
                     <Route path="/a191126" component={a191126} />
+                    <Route path="/a191128" component={a191128} />
                     </Content>
                     <Footer style={{ textAlign: 'center' }}>
                     COPYRIGHT ⓒ CARUISA All right reserved.

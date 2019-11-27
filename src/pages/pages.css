@@ -8,5 +8,9 @@ body {
 
   #web_reactjs{margin-right: 4px; width: 400px; height: 400px; font-size: 30px; } 
   #web_wish{margin-right: 4px; width: 400px; height: 400px; font-size: 30px; } 
-  #web_btn_group button{border: 1px solid skyblue; background-color: rgba(0,0,0,0); color: skyblue; padding: 5px; margin-top: 10px; }
-  #web_btn_group button:hover{ color:white; background-color: skyblue; }
+  #web_btn_group button{border: 1px solid #0B615E; background-color: rgba(0,0,0,0); color: #0B615E; padding: 5px; margin-top: 10px; }
+  #web_btn_group button:hover{ color:white; background-color: #0B615E; }
+
+  #web_basic{margin-right: 4px; } 
+  #web_basic_btn_group button{border: 1px solid #0B615E; background-color: rgba(0,0,0,0); color: #0B615E; padding: 5px; margin-top: 10px; }
+  #web_basic_btn_group button:hover{ color:white; background-color: #0B615E; }
