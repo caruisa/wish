@@ -100,7 +100,7 @@ render() {
                         />
                     </Header>
                     <Content style={{ margin: '24px 16px', padding: 24, background: '#fff', minHeight: 280 }}>
-                    <Route exact path="/" component={wish} />
+                    <Route exact path="/wish" component={wish} />
                     <Route path="/mplayground" component={mplayground} />
                     <Route path="/wishhomepage" component={wishhomepage} />
                     <Route path="/a191126" component={a191126} />

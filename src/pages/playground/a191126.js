@@ -6,7 +6,7 @@ function a191126() {
     <>
       <h1>Link to</h1>
       <p>Thank you</p>
-      <Link to="/ReactPlayground"><button>뒤로가기 (React. Basic 놀이터)</button></Link>
+      <Link to="/mplayground"><button>뒤로가기 (React. Basic 놀이터)</button></Link>
     </>
   );
 }
