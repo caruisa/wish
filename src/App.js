@@ -40,7 +40,7 @@ render() {
                         <Menu.Item key="1">
                             <Icon type="pie-chart" />
                             <span>홈</span>
-                            <Link to="/" />
+                            <Link to="/wish" />
                         </Menu.Item>      
                         <SubMenu
                         key="sub1"
