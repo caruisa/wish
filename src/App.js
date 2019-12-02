@@ -9,6 +9,7 @@ import mplayground from "./pages/mplayground";
 import wishhomepage from "./pages/wishhomepage";
 import a191126 from "./pages/playground/a191126";
 import a191128 from "./pages/playground/a191128";
+import a191202 from "./pages/playground/a191202";
 
 const { Header, Content, Footer, Sider } = Layout;
 const SubMenu = Menu.SubMenu;
@@ -106,6 +107,7 @@ render() {
                     <Route path="/wishhomepage" component={wishhomepage} />
                     <Route path="/a191126" component={a191126} />
                     <Route path="/a191128" component={a191128} />
+                    <Route path="/a191202" component={a191202} />
                     </Content>
                     <Footer style={{ textAlign: 'center' }}>
                     COPYRIGHT ⓒ CARUISA All right reserved.
