@@ -10,6 +10,7 @@ import wishhomepage from "./pages/wishhomepage";
 import a191126 from "./pages/playground/a191126";
 import a191128 from "./pages/playground/a191128";
 import a191202 from "./pages/playground/a191202";
+import a191204 from "./pages/playground/a191204";
 
 const { Header, Content, Footer, Sider } = Layout;
 const SubMenu = Menu.SubMenu;
@@ -18,6 +19,7 @@ class App extends React.Component {
   state = {
     collapsed: false,
 };
+
 
 onCollapse = (collapsed) => {
     this.setState({ collapsed });
@@ -28,11 +30,19 @@ toggle = () => {
     });
 }
 
+handleClick = e => {
+  console.log('click ', e);
+  this.setState({
+    current: e.key,
+  });
+};
+
+
 render() {
     return (
         <Router>
-            <Layout style={{ minHeight: '100vh' }}>
 
+            <Layout style={{ minHeight: '100vh' }}>
                 <Sider
                     collapsible
                     collapsed={this.state.collapsed}
@@ -94,12 +104,32 @@ render() {
                 </Sider>
                 <Layout>
                     <Header style={{ background: '#fff', padding: 0, paddingLeft: 16 }}>
-                        <Icon
+                    <Menu onClick={this.handleClick} selectedKeys={[this.state.current]} mode="horizontal">   
+                    <Icon
                             className="trigger"
                             type={this.state.collapsed ? 'menu-unfold' : 'menu-fold'}
                             style={{ cursor: 'pointer' }}
-                            onClick={this.toggle}
-                        />
+                            onClick={this.toggle}  
+                       />
+                    <Menu.Item key="1" style={{float: 'right'}}>
+                      <a href="http://www.prayer.kr/hrv/qt/caru_qt.php" target="_blank" rel="noopener noreferrer">
+                      <Icon type="heart" />
+                      Quiet Time
+                    </a>
+                    </Menu.Item>
+                    <Menu.Item key="2" style={{float: 'right'}}>
+                      <a href="https://github.com/caruisa/wish" target="_blank" rel="noopener noreferrer">
+                      <Icon type="github" />
+                      My GitHub
+                    </a>
+                    </Menu.Item>
+                    <Menu.Item key="3" style={{float: 'right'}}>
+                    <a href="https://play.google.com/store/apps/details?id=kr.prayer.prayer" target="_blank" rel="noopener noreferrer">
+                    <Icon type="android" />
+                      카루이사 App
+                    </a>
+                   </Menu.Item>
+                    </Menu>
                     </Header>
                     <Content style={{ margin: '24px 16px', padding: 24, background: '#fff', minHeight: 280 }}>
                     <Route exact path="/wish" component={wish} />
@@ -108,6 +138,7 @@ render() {
                     <Route path="/a191126" component={a191126} />
                     <Route path="/a191128" component={a191128} />
                     <Route path="/a191202" component={a191202} />
+                    <Route path="/a191204" component={a191204} />
                     </Content>
                     <Footer style={{ textAlign: 'center' }}>
                     COPYRIGHT ⓒ CARUISA All right reserved.
