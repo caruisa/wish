@@ -1,3 +1,7 @@
 #web_playground{margin-right: 4px; } 
 #web_playground_btn_group button{border: 1px solid #0B615E; background-color: rgba(0,0,0,0); color: #0B615E; padding: 5px; margin-top: 10px; }
 #web_playground_btn_group button:hover{ color:white; background-color: #0B615E; }
+
+#web_h_playground{margin-right: 8px; } 
+#web_h_playground_btn_group button{border: 1px solid #0B615E; background-color: rgba(0,0,0,0); color: #0B615E; padding: 5px;  }
+#web_h_playground_btn_group button:hover{ color:white; background-color: #0B615E; }
