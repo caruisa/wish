@@ -52,7 +52,7 @@ class App extends React.Component {
               mode="inline"
             >
               <div
-                style={{ position: 'relative', minHeight: '45px', cursor: 'pointer', display: 'flex', justifyContent: 'center', alignItems: 'center', background: '#002140', }}
+                style={{ position: 'relative', minHeight: '46px', cursor: 'pointer', display: 'flex', justifyContent: 'center', alignItems: 'center', background: '#002140', }}
                 type={this.state.collapsed ? 'right' : 'left'}
                 onClick={this.toggle}
               >
