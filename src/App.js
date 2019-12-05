@@ -12,6 +12,7 @@ import a191128 from "./pages/playground/a191128";
 import a191202 from "./pages/playground/a191202";
 import a191204 from "./pages/playground/a191204";
 import a191205 from "./pages/playground/a191205";
+import a191206 from "./pages/playground/a191206";
 
 const { Header, Content, Footer, Sider } = Layout;
 const SubMenu = Menu.SubMenu;
@@ -51,15 +52,14 @@ class App extends React.Component {
               defaultSelectedKeys={['1']}
               mode="inline"
             >
-              <div
-                style={{ position: 'relative', minHeight: '46px', cursor: 'pointer', display: 'flex', justifyContent: 'center', alignItems: 'center', background: '#002140', }}
+              <div id="web_t_btn"
+                style={{ minHeight: '64px' }}
                 type={this.state.collapsed ? 'right' : 'left'}
                 onClick={this.toggle}
               >
-                <Icon
+                <Icon id="web_t_i_btn"
                   className="trigger"
                   type={this.state.collapsed ? 'right' : 'left'}
-                  style={{ cursor: 'pointer', fontSize: '14px', color: 'white', }}
                 />
               </div>
               <SubMenu
@@ -144,6 +144,7 @@ class App extends React.Component {
               <Route path="/a191202" component={a191202} />
               <Route path="/a191204" component={a191204} />
               <Route path="/a191205" component={a191205} />
+              <Route path="/a191206" component={a191206} />
             </Content>
             <Footer style={{ textAlign: 'center' }}>
               COPYRIGHT ⓒ CARUISA All right reserved.

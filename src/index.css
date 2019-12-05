@@ -11,3 +11,19 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+#web_t_btn {
+  position: relative; 
+  cursor: pointer; 
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  align-items: center; 
+}
+
+#web_t_i_btn{
+  cursor: pointer; 
+  font-size: 14px; 
+  color: white;
+}

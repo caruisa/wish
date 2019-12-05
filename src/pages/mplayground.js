@@ -27,6 +27,8 @@ function mplayground() {
         - [Dream Theater - Strange Deja Vu] Today I am searching for it
       <br /><Link to="/a191205"><button id="web_basic">191205 - Pagination</button></Link>
         - [Radiohead - Creep] Whatever makes you happy Whatever you want
+      <br /><Link to="/a191206"><button id="web_basic">191206 - Modal</button></Link>
+        - [Clean Bandit - Rockabye] Rockabye baby, don't you cry
       </div>
     </>
   );

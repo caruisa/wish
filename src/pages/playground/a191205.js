@@ -55,7 +55,7 @@ function a191205() {
     <br />
     <Pagination simple defaultCurrent={2} total={50} />
    
-  </div>,
+  </div>
   
     </>
   );
