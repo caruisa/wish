@@ -2,8 +2,7 @@ import React from 'react';
 import './pages.css';
 import { Link } from "react-router-dom";
 import 'antd/dist/antd.css';
-import { Tabs, Icon } from 'antd';
-import { PageHeader } from 'antd';
+import { Tabs, Icon, PageHeader } from 'antd';
 
 const { TabPane } = Tabs;
 
