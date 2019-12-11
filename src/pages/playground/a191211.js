@@ -4,7 +4,7 @@ import { PageHeader } from 'antd';
 import { message, Button } from 'antd';
 
 const info = () => {
-  message.info('忍忍忍 Please bo true 忍忍忍');
+  message.info('忍忍忍 Please be true 忍忍忍');
 };
 
 function a191211() {
