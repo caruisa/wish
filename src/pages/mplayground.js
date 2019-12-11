@@ -35,8 +35,10 @@ function mplayground() {
       - [쿨 - 아로하] 아픈 마음도 함께 기쁜맘도 함께 나눠가졌으면 해
       <br /><Link to="/a191210"><button id="web_basic">191210 - Timeline</button></Link>
       - [The Taste Of Ink - The Used] And I'll savor every moment of this
-      <br /><Link to="/b191210"><button id="web_basic">191210 - Collapse</button></Link>
+      <br /><Link to="/a191210_1"><button id="web_basic">191210 - Collapse</button></Link>
       - [Stevie Wonder - I Just Called To Say I Love You] I just called to say I love you
+      <br /><Link to="/a191211"><button id="web_basic">191211 - message</button></Link>
+      - [Frank Sinatra Fly Me To The Moon] Fill my heart with song
       </div>
     </>
   );

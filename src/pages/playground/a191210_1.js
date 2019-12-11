@@ -34,7 +34,7 @@ const text6 = `
   무릇 의인들의 길은 여호와께서 인정하시나 악인들의 길은 망하리로다 (시편 1 : 6)
 `;
 
-function b191210() {
+function a191210_1() {
     return (
         <>
             <PageHeader
@@ -103,4 +103,4 @@ function b191210() {
     );
 }
 
-export default b191210;
+export default a191210_1;
