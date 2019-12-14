@@ -5,3 +5,17 @@
 #web_h_playground{margin-right: 8px; } 
 #web_h_playground_btn_group button{border: 1px solid #0B615E; background-color: rgba(0,0,0,0); color: #0B615E; padding: 5px;  }
 #web_h_playground_btn_group button:hover{ color:white; background-color: #0B615E; }
+
+.ant-back-top {
+    bottom: 100px;
+  }
+  .ant-back-top-inner {
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    border-radius: 4px;
+    background-color: #1088e9;
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+  }
