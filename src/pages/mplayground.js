@@ -41,6 +41,8 @@ function mplayground() {
       - [Frank Sinatra Fly Me To The Moon] Fill my heart with song
       <br /><Link to="/a191214"><button id="web_basic">191214 - BackTop</button></Link>
       - [브라운 아이즈 - 비오는 압구정] 그대 목소릴 닮은 비만 오네...
+      <br /><Link to="/a191215"><button id="web_basic">191215 - Avatar</button></Link>
+      - [이문세 - 광화문 연가] 가슴깊이 그리워지면 눈내린 광화문 네거리 이곳에
       </div>
     </>
   );
