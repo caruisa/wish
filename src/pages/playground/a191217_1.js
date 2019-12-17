@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { PageHeader } from 'antd';
-import { Tree } from 'antd';
+import { PageHeader, Tree } from 'antd';
 import './playground.css';
 import 'antd/dist/antd.css';
 
