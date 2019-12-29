@@ -60,7 +60,7 @@ function mplayground() {
       <br /><Link to="/a191229"><button id="web_basic">191229 - Input Search</button></Link>
       - [SE7EN - 라 라 라] 넌 내게 오면 돼 너의 가슴이 다시 뛸 수 있게
       <br /><Link to="/a191230"><button id="web_basic">191230 - Form Registration</button></Link>
-      - [SE7EN - 라 라 라] 넌 내게 오면 돼 너의 가슴이 다시 뛸 수 있게
+      - [쥬얼리 - one more time] Baby one more time
       </div>
     </>
   );
