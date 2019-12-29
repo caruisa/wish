@@ -59,6 +59,8 @@ function mplayground() {
       - [자전거탄풍경 - 너에게 난 나에게 넌] 수많은 별이 되어 영원토록 빛나고 싶어
       <br /><Link to="/a191229"><button id="web_basic">191229 - Input Search</button></Link>
       - [SE7EN - 라 라 라] 넌 내게 오면 돼 너의 가슴이 다시 뛸 수 있게
+      <br /><Link to="/a191230"><button id="web_basic">191230 - Form Registration</button></Link>
+      - [SE7EN - 라 라 라] 넌 내게 오면 돼 너의 가슴이 다시 뛸 수 있게
       </div>
     </>
   );
