@@ -31,6 +31,7 @@ import a191229 from "./pages/playground/a191229";
 import a191230 from "./pages/playground/a191230";
 import a191231 from "./pages/playground/a191231";
 import a200101 from "./pages/playground/a200101";
+import a200103 from "./pages/playground/a200103";
 
 const { Header, Content, Footer, Sider } = Layout;
 const SubMenu = Menu.SubMenu;
@@ -310,6 +311,7 @@ class Appjs extends React.Component {
               <Route path="/a191230" component={a191230} />
               <Route path="/a191231" component={a191231} />
               <Route path="/a200101" component={a200101} />
+              <Route path="/a200103" component={a200103} />
             </Content>
             <Footer style={{ textAlign: 'center' }}>
               COPYRIGHT ⓒ CARUISA All right reserved.
